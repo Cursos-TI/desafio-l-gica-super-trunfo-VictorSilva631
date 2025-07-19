@@ -145,11 +145,11 @@ int main() {
     // Resultado final
     printf("\n--- Resultado da Comparação ---\n");
     if (vitoria1 > vitoria2) {
-        printf("🏆 Cidade vencedora: %s\n", cidade1.nome);
+        printf("Cidade vencedora: %s\n", cidade1.nome);
     } else if (vitoria2 > vitoria1) {
-        printf("🏆 Cidade vencedora: %s\n", cidade2.nome);
+        printf("Cidade vencedora: %s\n", cidade2.nome);
     } else {
-        printf("🤝 Empate entre as cidades!\n");
+        printf("Empate entre as cidades!\n");
     }
 
     return 0;
